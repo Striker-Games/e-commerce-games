@@ -1,0 +1,249 @@
+body, p, h1, h2, h3, h4, a {
+  margin: 0px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mensagem {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.mensagem a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.header-container {
+  max-width: 1440px;
+  padding: 1rem;
+  margin: 20px auto;
+}
+
+.header-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-all input {
+  padding: 0.9rem;
+  width: 25rem;
+  margin-left: 2rem;
+  border: 1px solid;
+  border-color: #157AF0;
+  background: url("/img/lupa.svg") no-repeat right;
+  outline: none;
+  color: #8f8d8d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-all input:focus {
+  border: 2px solid;
+}
+
+.header-botao {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  background: #157AF0;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.header-botao a {
+  color: #fff;
+  font-weight: 700;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.section {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.section-container a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.section-container span {
+  display: flex;
+  text-align: center;
+}
+
+.section-pc span {
+  margin-left: 30px;
+}
+
+.section-plataforma span {
+  margin-top: 4px;
+}
+
+.section-hover:hover {
+  background-color: #157AF0;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.section-play span {
+  margin-top: 4px;
+}
+
+.section-xbox span {
+  margin-top: 4px;
+}
+
+.section-play {
+  position: relative;
+}
+
+.section-xbox {
+  position: relative;
+}
+
+.section-pc {
+  position: relative;
+}
+
+.section-play span::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 65px;
+  left: -65px;
+  top: 13px;
+  position: absolute;
+  background-color: #157AF0;
+}
+
+.section-xbox span::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 65px;
+  top: 14px;
+  right: 115px;
+  position: absolute;
+  background-color: #157AF0;
+}
+
+.section-pc span::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 63px;
+  top: 17px;
+  right: 130px;
+  position: absolute;
+  background-color: #157AF0;
+}
+
+hr {
+  display: flex;
+  margin: 0px;
+  border: 4px solid #157AF0;
+}
+
+.banner-section {
+  position: relative;
+  border: 1px solid black;
+  width: 1903px;
+  height: 480px;
+}
+
+.banner-imagem img {
+  height: 480px;
+  width: 1920px;
+}
+
+.banner-botao {
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #433f3f;
+  padding: 1rem 3rem;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 330px;
+  left: 1100px;
+}
+
+.section-jogos {
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 50px auto;
+}
+
+.sections {
+  background-color: #157AF0;
+  padding: 0.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.lancamentos-titulo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.lancamentos-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.imgs {
+  width: 219px;
+  height: 244px;
+  border-radius: 20px;
+  border: none;
+}
+
+.imgs:hover {
+  padding: 2px;
+  border: 3px solid #157AF0;
+  -webkit-filter: brightness(80%);
+  transition: 0.1s;
+}
+
+.footer-container {
+  height: 204px;
+  background-color: #157AF0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
