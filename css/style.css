@@ -32,6 +32,10 @@ img {
   align-items: center;
 }
 
+.header-logo {
+  width: 50px;
+}
+
 .header-all input {
   padding: 0.9rem;
   width: 25rem;
@@ -46,18 +50,18 @@ img {
 }
 
 .header-all input:focus {
-  border: 2px solid;
+  border: 4px solid #157AF0;
 }
 
 .header-botao {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 10px;
   color: white;
   background: #157AF0;
   max-width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .header-botao a {
@@ -167,11 +171,12 @@ hr {
 
 .banner-section {
   position: relative;
+  width: 100%;
 }
 
 .banner-imagem img {
-  height: 480px;
-  width: 1920px;
+  height: 500px;
+  width: 100%;
 }
 
 .banner-botao {
@@ -184,12 +189,12 @@ hr {
   color: #fff;
   position: absolute;
   text-transform: uppercase;
-  bottom: 330px;
-  left: 1100px;
+  bottom: 360px;
+  left: 1500px;
 }
 
 .section-jogos {
-  max-width: 1200px;
+  max-width: 1440px;
   padding: 1rem;
   margin: 50px auto;
 }
@@ -212,12 +217,26 @@ hr {
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+}
+
+.lancamentos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.lancamentos-container a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 2px;
+  margin-top: 5px;
 }
 
 .imgs {
-  width: 219px;
-  height: 244px;
+  width: 270px;
+  height: 270px;
   border-radius: 20px;
   border: none;
 }
@@ -227,6 +246,10 @@ hr {
   border: 3px solid #157AF0;
   -webkit-filter: brightness(80%);
   transition: 0.1s;
+}
+
+.lancamentos-titulo {
+  display: inline-block;
 }
 
 .footer-container {
