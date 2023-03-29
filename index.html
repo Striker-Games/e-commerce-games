@@ -5,51 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Striker Games | Home</title>
+  <script src="https://kit.fontawesome.com/256a315b5c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="owl.carousel.min.js"></script>
 </head>
 <body>
-  <div class="mensagem">
-    <p>Novidades do mes! <a href="#">Confira >></a></p>
-  </div>
-
   <header class="header-container">
     <div class="header-all">
       <a href="#"><img src="img/xbox.svg" alt="Logo" class="header-logo"></a>
-      <form action="">
+      <div class="header-input">
         <input type="text" placeholder="Pesquisar">
-      </form>
-      <div class="header-botao">
-        <a href="#">Iniciar Sessao</a>
-        <a href=""><img src="img/conta.svg" alt=""></a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #8f8d8d;"></i></a>
       </div>
-      <div class="header-botao">
-        <a href="#">Carrinho</a>
-        <a href=""><img src="img/carrinho.svg" alt=""></a>
+      <div class="header-all-botao">
+        <div class="header-botao">
+          <a href="#">Carrinho</a>
+          <a href="#"><img src="img/carrinho.svg" alt=""></a>
+        </div>
+        <div class="header-botao">
+          <a href="#">Iniciar Sessao</a>
+          <a href="#"><img src="img/conta.svg" alt=""></a>
+        </div>
       </div>
     </div>
   </header>
 
   <section class="section">
     <div class="section-container">
-      <div class="section-plataforma section-hover">
+      <div class="section-plataforma">
         <a href="#"><img src="img/controle.svg" alt="">
           <span>Plataforma</span>
         </a>
       </div>
-      <div class="section-play section-hover">
+      <div class="section-play">
         <a href="#"><img src="img/icons8-playstation.svg" alt="">
           <span>Playstation</span>
         </a>
       </div>
-      <div class="section-xbox section-hover">
+      <div class="section-xbox">
         <a href="#"><img src="img/xbox.svg" alt="">
           <span>Xbox</span>
         </a>
       </div>
-      <div class="section-pc section-hover">
+      <div class="section-pc">
         <a href="#"><img src="img/icons8-workstation-80.svg" alt="">
           <span>PC</span>
         </a>
@@ -58,19 +63,20 @@
   </section>
 
   <hr>
-
+  
   <section class="banner-section">
     <div class="banner-imagem">
-      <img src="img/residentevil.jpg" alt="">
+      <a href=""><img src="img/residentevil3.png" alt=""></a>
     </div>
     <a href="#" class="banner-botao">Compre Agora</a>
+    </div>
   </section>
 
   <section class="section-jogos">
     <div class="sections">
       <h2 class="lancamentos-titulo">Lancamentos</h2>
     </div>
-    <div class="lancamentos-img">
+    <div class="lancamentos-img owl-carousel owl-theme">
       <div class="lancamentos-container"> 
         <a href="#"><img class="imgs" src="img/fifa.png" alt=""></a>
         <a href="#"><span>EA SPORTS FIFA 23</span></a>
@@ -91,11 +97,15 @@
       <a href="#"><img class="imgs" src="img/hp.png" alt=""></a>
       <a href="#"><span>Hogwarts Legacy</span></a>
       </div>
+      <div class="lancamentos-container"> 
+        <a href="#"><img class="imgs" src="img/spider.png" alt=""></a>
+        <a href="#"><span>EA SPORTS FIFA 23</span></a>
+      </div>
     </div>
     <div class="sections">
       <h2 class="lancamentos-titulo">Em Breve</h2>
     </div>
-    <div class="lancamentos-img">
+    <div class="lancamentos-img owl-carousel owl-theme">
       <div class="lancamentos-container">
         <a href="#"><img class="imgs" src="img/battlefield.png" alt=""></a>
         <a href="#"><span>Battlefield 2042</span></a>
@@ -116,11 +126,15 @@
       <a href="#"><img class="imgs" src="img/spider.png" alt=""></a>
       <a href="#"><span>Spider-Man</span></a>
       </div>
+      <div class="lancamentos-container"> 
+        <a href="#"><img class="imgs" src="img/fifa.png" alt=""></a>
+        <a href="#"><span>EA SPORTS FIFA 23</span></a>
+      </div>
     </div>
     <div class="sections">
       <h2 class="lancamentos-titulo">Mais Jogados</h2>
     </div>
-    <div class="lancamentos-img">
+    <div class="lancamentos-img owl-carousel owl-theme">
       <div class="lancamentos-container">
       <a href="#"><img class="imgs" src="img/elden.png" alt=""></a>
       <a href="#"><span>Elden Ring</span></a>
@@ -141,6 +155,10 @@
       <a href="#"><img class="imgs" src="img/mk.png" alt=""></a>
       <a href="#"><span>Mortal Kombat 11</span></a>
       </div>
+      <div class="lancamentos-container"> 
+        <a href="#"><img class="imgs" src="img/fifa.png" alt=""></a>
+        <a href="#"><span>EA SPORTS FIFA 23</span></a>
+      </div>
     </div>
   </section>
 
@@ -149,7 +167,7 @@
       <h2>© 2023 Striker Games. Todos os direitos reservados.</h2>
     </div>
   </footer>
-
+  
   <script src="script.js"></script>
 </body>
 </html>

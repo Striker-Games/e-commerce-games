@@ -1,22 +1,10 @@
 body, p, h1, h2, h3, h4, a {
   margin: 0px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 img {
   max-width: 100%;
-}
-
-.mensagem {
-  display: flex;
-  justify-content: center;
-  background-color: #000;
-  color: #fff;
-}
-
-.mensagem a {
-  color: #fff;
-  font-weight: 700;
 }
 
 .header-container {
@@ -27,48 +15,86 @@ img {
 
 .header-all {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .header-logo {
   width: 50px;
 }
 
+.header-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .header-all input {
   padding: 0.9rem;
   width: 25rem;
   margin-left: 2rem;
-  border: 1px solid;
+  border: 2px solid transparent;
+  border-radius: 10px;
   border-color: #157AF0;
-  background: url("/img/lupa.svg") no-repeat right;
-  outline: none;
   color: #8f8d8d;
-  font-size: 18px;
+  outline: none;
+  font-size: 16px;
   font-weight: bold;
 }
 
+.fa-magnifying-glass {
+  position: absolute;
+  right: 1rem;
+  top: 1.1rem;
+}
+
 .header-all input:focus {
-  border: 4px solid #157AF0;
+  outline: none;
+  box-shadow: 2px 2px 3px #157AF0,
+  -2px -2px 3px #157AF0;
+}
+
+.header-all-botao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header-botao {
   display: flex;
   align-items: center;
-  padding: 0.7rem;
+  padding: 0.6rem 1.2rem;
+  padding-right: 3rem;
   border-radius: 10px;
+  margin-left: 1rem;
   color: white;
   background: #157AF0;
   max-width: 100%;
   font-size: 18px;
+  position: relative;
+}
+
+.header-botao img {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .header-botao a {
   color: #fff;
   font-weight: 700;
-  margin-right: 10px;
+  margin-right: 5px;
   text-decoration: none;
+}
+
+.header-botao:hover {
+  box-shadow: 1px 1px 3px #157AF0,
+  -1px -1px 3px #157AF0;
 }
 
 .section {
@@ -102,12 +128,6 @@ img {
 
 .section-plataforma span {
   margin-top: 4px;
-}
-
-.section-hover:hover {
-  background-color: #157AF0;
-  border-radius: 5px;
-  transition: 0.4s;
 }
 
 .section-play span {
@@ -145,7 +165,7 @@ img {
   content: "";
   display: inline-block;
   width: 5px;
-  height: 65px;
+  height: 67px;
   top: 14px;
   right: 115px;
   position: absolute;
@@ -164,22 +184,25 @@ img {
 }
 
 hr {
-  display: flex;
   margin: 0px;
-  border: 4px solid #157AF0;
+  border: 3px solid #157AF0;
 }
 
 .banner-section {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 .banner-imagem img {
-  height: 500px;
+  display: flex;
+  justify-content: center;
   width: 100%;
+  height: 668px;
 }
 
 .banner-botao {
+  display: none;
+  flex-wrap: wrap;
   text-decoration: none;
   border: none;
   border-radius: 30px;
@@ -189,8 +212,8 @@ hr {
   color: #fff;
   position: absolute;
   text-transform: uppercase;
-  bottom: 360px;
-  left: 1500px;
+  bottom: 500px;
+  left: 1400px;
 }
 
 .section-jogos {
@@ -214,6 +237,7 @@ hr {
 
 .lancamentos-img {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
@@ -243,7 +267,7 @@ hr {
 
 .imgs:hover {
   padding: 2px;
-  border: 3px solid #157AF0;
+  border: 1px solid #157AF0;
   -webkit-filter: brightness(80%);
   transition: 0.1s;
 }
@@ -255,11 +279,10 @@ hr {
 .footer-container {
   height: 204px;
   background-color: #157AF0;
-}
-
-.footer {
   display: flex;
+  align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 .footer h2 {
@@ -267,3 +290,90 @@ hr {
   font-size: 24px;
 }
 
+@media (max-width: 1700px) {
+  .banner-botao {
+    display: block;
+    left: 1200px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .banner-botao {
+    display: block;
+    left: 1100px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .banner-botao {
+    display: block;
+    left: 900px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner-botao {
+    display: block;
+    left: 800px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .banner-botao {
+    display: block;
+    left: 700px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-botao {
+    display: block;
+    left: 630px;
+  }
+}
+
+@media (max-width: 932px) {
+  .header-input input {
+    width: 20rem;
+  }
+
+  .banner-botao {
+    display: block;
+    left: 550px;
+  }
+  
+  .section-play span::before {
+    left: -60px;
+  }
+
+  .section-xbox span::before {
+    right: 110px;
+  }
+
+  .section-pc span::before {
+    right: 120px;
+  }
+}
+
+@media (max-width: 853px) {
+  .header-logo {
+    margin-left: 10px;  
+  }
+  
+  .header-input input {
+    width: 15rem;
+  }
+
+  .section-play span::before {
+    left: -45px;
+  }
+
+  .section-xbox span::before {
+    right: 11px;
+  }
+
+  .banner-botao {
+    display: block;
+    left: 450px;
+  }
+}
