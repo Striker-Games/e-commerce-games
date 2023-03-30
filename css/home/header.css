@@ -1,0 +1,197 @@
+body, p, h1, h2, h3, h4, a {
+  margin: 0px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+.header-container {
+  max-width: 1440px;
+  padding: 1rem;
+  margin: 1.25rem auto;
+}
+
+.header-all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.header-logo {
+  width: 3.75rem;
+}
+
+.header-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-all input {
+  padding: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 25rem;
+  margin-left: 2rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-color: var(--cor-principal);
+  color: var(--cor-barra-pesquisa);
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  right: 1rem;
+  top: 0.7rem;
+}
+
+.header-all input:focus {
+  outline: none;
+  box-shadow: 2px 2px 3px var(--cor-principal),
+  -2px -2px 3px var(--cor-principal);
+}
+
+.header-all-botao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-botao {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  padding-right: 3rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  color: var(--cor-branco);
+  background: var(--cor-principal);
+  max-width: 100%;
+  font-size: 16px;
+  position: relative;
+}
+
+.header-botao img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.header-botao a {
+  color: #fff;
+  font-weight: 700;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.header-botao:hover {
+  box-shadow: 1px 1px 3px var(--cor-principal),
+  -1px -1px 3px var(--cor-principal);
+}
+
+/* SECTION PLATAFORMAS */
+
+.section {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.section-container a {
+  text-decoration: none;
+  color: var(--cor-preto);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section-container span {
+  display: flex;
+  text-align: center;
+}
+
+.section-plataforma span {
+  margin-top: 4px;
+}
+
+.section-play span {
+  margin-top: 4px;
+}
+
+.section-xbox span {
+  margin-top: 2px;
+}
+
+.section-xbox img {
+  margin-top: 8px;
+}
+
+.section-pc span {
+  margin-left: 30px;
+}
+
+.section-barra-play {
+  width: 5px;
+  height: 67px;
+  background-color: var(--cor-principal); 
+}
+
+.section-barra-xbox {
+  width: 5px;
+  height: 67px;
+  margin-right: 10px;
+  background-color: var(--cor-principal); 
+}
+
+.section-barra-pc {
+  width: 5px;
+  height: 68px;
+  margin-left: 10px;
+  background-color: var(--cor-principal); 
+}
+
+hr {
+  margin: 0px;
+  border: 3px solid var(--cor-principal);
+}
+
+@media (max-width: 932px) {
+  .header-input input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 853px) {
+  .header-input input {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 755px) {
+  .header-logo {
+    margin-left: 6rem;
+  }
+
+  .header-all-botao {
+    width: 100%;
+    justify-content: center;
+  }
+}

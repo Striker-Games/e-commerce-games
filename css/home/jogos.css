@@ -1,0 +1,59 @@
+.section-jogos {
+  max-width: 1440px;
+  padding: 1rem;
+  margin: 50px auto;
+}
+
+.sections {
+  background-color: var(--cor-principal);
+  padding: 0.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.lancamentos-titulo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.lancamentos-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.lancamentos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.lancamentos-container a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.imgs {
+  width: 270px;
+  height: 270px;
+  border-radius: 20px;
+  border: none;
+}
+
+.imgs:hover {
+  padding: 2px;
+  border: 1px solid var(--cor-principal);
+  -webkit-filter: brightness(80%);
+  transition: 0.1s;
+}
+
+.lancamentos-titulo {
+  display: inline-block;
+}
