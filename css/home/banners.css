@@ -6,8 +6,6 @@
 }
 
 .banner-imagem img {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 668px;
 }
@@ -18,65 +16,118 @@
   text-decoration: none;
   border: none;
   border-radius: 30px;
-  background-color: #433f3f;
-  padding: 1rem 3rem;
-  font-size: 24px;
+  background-color: var(--cor-banner-botao);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
   color: #fff;
+  font-weight: 700;
   position: absolute;
   text-transform: uppercase;
-  bottom: 500px;
-  left: 1400px;
+  top: 450px;
+  left: 150px;
 }
 
-.re4logo {
+.banner-botao2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--cor-branco);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
   position: absolute;
+  text-transform: uppercase;
+  top: 450px;
+  left: 150px;
 }
+
+.banner-botao3 {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(214, 61, 0, 1);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  text-transform: uppercase;
+  top: 450px;
+  left: 150px;
+}
+
+.img1, .img2, .img3 {
+  display: none;
+}
+
+/* SWIPER */
 
 .swiper {
   max-width: 100%;
   height: 600px;
 }
 
-@media (max-width: 1700px) {
-  .banner-botao {
-    display: block;
-    left: 1200px;
-  }
-  
+.swiper-slide {
+  position: relative;
+  opacity: 1;
 }
 
-@media (max-width: 1550px) {
-  .banner-botao {
-    display: block;
-    left: 1100px;
-  }
+.swiper-descricao:nth-child(1) {
+  color: #fff;
+  position: absolute;
+  top: 290px;
+  left: 150px;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  opacity: 1;
 }
 
-@media (max-width: 1400px) {
-  .banner-botao {
+.swiper-descricao:nth-child(2) {
+  color: #fff;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  font-size: calc(1rem);
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  opacity: 1;
+}
+
+@media (max-width: 1600px) {
+  .img-principal {
+    display: none;
+  }
+
+  .img1 {
     display: block;
-    left: 900px;
   }
 }
 
 @media (max-width: 1200px) {
-  .banner-botao {
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
     display: block;
-    left: 800px;
   }
 }
 
-@media (max-width: 1100px) {
-  .banner-botao {
-    display: block;
-    left: 700px;
+@media (max-width: 800px) {
+  .img2{
+    display: none;
   }
-}
-
-@media (max-width: 1000px) {
-  .banner-botao {
+  
+  .img3 {
     display: block;
-    left: 630px;
   }
 }
 
