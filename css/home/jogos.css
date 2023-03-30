@@ -57,3 +57,17 @@
 .lancamentos-titulo {
   display: inline-block;
 }
+
+@media (max-width: 650px) {
+  .imgs {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 520px) {
+  .imgs {
+    width: 230px;
+    height: 230px;
+  }
+}

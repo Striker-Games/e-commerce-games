@@ -195,3 +195,9 @@ hr {
     justify-content: center;
   }
 }
+
+@media (max-width: 520px) {
+  .header-botao:nth-child(1) {
+    display: none;
+  }
+}

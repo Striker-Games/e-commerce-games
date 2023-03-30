@@ -8,6 +8,7 @@
   <script src="https://kit.fontawesome.com/256a315b5c.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="js/carouselowl/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/carousel/owl.carousel.css">
   <link rel="stylesheet" href="./css/carousel/owl.carousel.min.css">
@@ -15,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
   <header class="header-container">
@@ -36,7 +38,7 @@
       </div>
     </div>
   </header>
-
+  
   <section class="section">
     <div class="section-container">
       <div class="section-plataforma">
@@ -66,14 +68,26 @@
   </section>
 
   <hr>
-  
-  <section class="banner-section">
-    <div class="banner-imagem">
-      <a href=""><img src="img/residentevil3.png" alt=""></a>
+  <!-- Slider main container -->
+<div class="swiper banner-section">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper banner-imagem">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <a href="#"><img src="img/re4.png"alt=""></a>
+      <a href="#" class="banner-botao">Compre Agora</a>
     </div>
-    <a href="#" class="banner-botao">Compre Agora</a>
+    <div class="swiper-slide">
+      <a href=""><img src="img/apex.png"alt=""></a>
     </div>
-  </section>
+    <div class="swiper-slide">
+      <a href=""><img src="img/horizon.png"alt=""></a>
+    </div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
 
   <section class="section-jogos">
     <div class="sections">
