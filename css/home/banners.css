@@ -164,23 +164,23 @@
   .banner-botao, .banner-botao2, .banner-botao3 {
     font-size: 15px;
     top: 550px;
-    left: 320px;
+    left: 30px;
   }
 
   .swiper-descricao:nth-child(1) {
-    font-size: 20px;
+    font-size: 25px;
     top: 400px;
-    left: 180px;
+    left: 30px;
   }
 
   .swiper-descricao:nth-child(2) {
-    font-size: calc(0.7rem);
+    font-size: calc(0.8rem);
     top: 450px;
-    left: 180px;
+    left: 30px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .banner-botao, .banner-botao2, .banner-botao3 {
     font-size: 15px;
     top: 550px;
@@ -197,5 +197,11 @@
     font-size: calc(0.8rem);
     top: 450px;
     left: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .botao1 {
+    top: 560px;
   }
 }

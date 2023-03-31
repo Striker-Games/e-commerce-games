@@ -8,6 +8,9 @@ img {
 }
 
 /* HEADER */
+.dark {
+  background-color: #464646;
+}
 
 .header-container {
   max-width: 1440px;
@@ -25,6 +28,11 @@ img {
 
 .header-logo {
   width: 3.75rem;
+}
+
+.header-logo-meio {
+  width: 3.75rem;
+  display: none;
 }
 
 .header-input {
@@ -52,6 +60,10 @@ img {
   position: absolute;
   right: 1rem;
   top: 0.7rem;
+}
+
+.responsivo {
+  display: none;
 }
 
 .header-all input:focus {
@@ -186,18 +198,77 @@ hr {
 }
 
 @media (max-width: 755px) {
-  .header-logo {
-    margin-left: 6rem;
+  .header-container {
+    max-width: 1440px;
+    padding: 0rem;
+    margin: 10px auto;
   }
 
+  .header-all {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: nowrap;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .header-logo-meio {
+    display: block;
+    margin-right: 100px;
+    width: 2.5rem;
+  }
+  
   .header-all-botao {
-    width: 100%;
-    justify-content: center;
+    margin-right: 20px;
+    justify-content: end;
+  }
+
+  .header-botao:nth-child(1) {
+    display: none;
+  }
+  
+  .header-botao:nth-child(2) {
+    padding: 0.3rem 1rem;
+    padding-right: 0.3rem;
+  }
+
+  .header-botao img {
+    display: none;
+  }
+
+  .header-input input{
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    display: none;
+  }
+
+  .responsivo {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    width: 15px;
+  }
+
+  .section {
+    display: none;
   }
 }
 
-@media (max-width: 520px) {
-  .header-botao:nth-child(1) {
-    display: none;
+
+@media (max-width: 600px) {
+  .header-logo-meio {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-logo-meio {
+    margin-right: 0px;
   }
 }
