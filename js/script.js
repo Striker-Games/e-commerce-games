@@ -37,3 +37,8 @@ const swiper = new Swiper('.swiper', {
         delay: 3500
     }
   });
+
+const responsivo = document.querySelector(".responsivo");
+if (window.innerWidth <= 755) {
+    responsivo.classList.toggle("responsivo");
+}
