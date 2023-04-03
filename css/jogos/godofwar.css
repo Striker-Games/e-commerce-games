@@ -16,7 +16,7 @@
 
 .banner-imagem1 img {
   opacity: 0.8;
-    width: 100%;
+  width: 100%;
   height: 668px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .swiper {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -89,7 +89,6 @@
 .swiper-slide img {
   width: 589px;
   margin-top: 50px;
-  margin-left: 13px;
   display: block;
   border-radius: 20px;
 }
@@ -136,9 +135,14 @@
 .swiper-slide img:hover, .swiper-container1 img:hover {
   padding: 0.1rem;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
-@media (max-width: 950px) {
+.imggod1 {
+  display: none;
+}
+
+@media (max-width: 1250px) {
   .swiper-container1 {
     display: flex;
     flex-direction: column;
@@ -162,5 +166,72 @@
     margin-bottom: 30px;
     font-size: 15px;
     color: #fff;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-info {
+    top: 50px;
+    left: 30px;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .banner-info h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-info p:nth-child(2) {
+    font-size: 10px;
+  }
+  
+  .banner-info span {
+    border: 1px solid #fff;
+    padding: 0 0.3rem;
+  }
+  
+  .banner-info h2 {
+    font-size: 1.562rem;
+    margin-top: 60px;
+  }
+  
+  .banner-info p:nth-child(4) {
+    margin-top: 30px;
+    border: 1px solid #000;
+    width: 88px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .banner-botao-adicionar {
+    width: 150px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .imggod {
+    display: none;
+  }
+
+  .imggod1 {
+    display: block;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .banner-info h2 {
+    font-size: 1.562rem;
+    margin-top: 200px;
+  }
+
+  .banner-info p:nth-child(4) {
+    border: 1px solid #000;
+    width: 70px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
   }
 }
