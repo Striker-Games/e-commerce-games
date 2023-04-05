@@ -45,6 +45,7 @@
   height: 270px;
   border-radius: 20px;
   border: none;
+  box-sizing: border-box;
 }
 
 .imgs:hover {

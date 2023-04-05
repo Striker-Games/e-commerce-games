@@ -91,6 +91,7 @@
   margin-top: 50px;
   display: block;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .swiper-container1 {
@@ -117,6 +118,7 @@
   width: 589px;
   border-radius: 20px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .swiper-container1 h3 {
