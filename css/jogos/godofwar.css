@@ -36,7 +36,6 @@
 
 .banner-info p:nth-child(4) {
   margin-top: 50px;
-  border: 1px solid white;
   width: 130px;
   font-size: 30px;
   font-weight: 700;
@@ -46,7 +45,7 @@
   text-decoration: none;
   text-align: center;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: var(--cor-principal);
   width: 200px;
   padding: 0.5rem;
@@ -199,11 +198,10 @@
   
   .banner-info p:nth-child(4) {
     margin-top: 30px;
-    border: 1px solid #000;
     width: 88px;
     font-size: 1.25rem;
     font-weight: 700;
-    color: #000;
+    color: #fff;
   }
 
   .banner-botao-adicionar {
@@ -225,12 +223,11 @@
 
 @media (max-width: 450px) {
   .banner-info h2 {
-    font-size: 1.562rem;
-    margin-top: 200px;
+    display: none;
   }
 
   .banner-info p:nth-child(4) {
-    border: 1px solid #000;
+    margin-top: 350px;
     width: 70px;
     font-size: 1rem;
     font-weight: 700;

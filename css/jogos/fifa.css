@@ -25,7 +25,7 @@
 }
 
 .banner-info span {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   padding: 0 0.3rem;
 }
 
@@ -37,7 +37,6 @@
 
 .banner-info p:nth-child(4) {
   margin-top: 50px;
-  border: 1px solid #000;
   width: 130px;
   font-size: 30px;
   font-weight: 400;
@@ -47,7 +46,7 @@
   text-decoration: none;
   text-align: center;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: var(--cor-principal);
   width: 200px;
   padding: 0.5rem;
@@ -63,7 +62,7 @@
 
 .swiper-background {
   background: rgb(21,122,240);
-  background: linear-gradient(9deg, rgba(21,122,240,1) 6%, rgba(8,37,97,0.6418942577030813) 41%);
+  background: linear-gradient(169deg, rgba(21,122,240,1) 6%, rgba(8,37,97,0.4822303921568627) 68%);
 }
 
 .swiper-background h2 {
@@ -142,6 +141,10 @@
   cursor: pointer;
 }
 
+.fifa750 {
+  display: none;
+}
+
 @media (max-width: 1250px) {
   .swiper-container1 {
     display: flex;
@@ -171,14 +174,14 @@
 
 @media (max-width: 1000px) {
   .banner-info {
-    top: 50px;
-    left: 30px;
-    color: #fff;
+    top: 100px;
+    left: 20px;
+    color: #000;
     line-height: 1.5;
   }
 
   .banner-info h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .banner-info p:nth-child(2) {
@@ -186,18 +189,17 @@
   }
   
   .banner-info span {
-    border: 1px solid #fff;
+    border: 1px solid #000;
     padding: 0 0.3rem;
   }
   
   .banner-info h2 {
-    font-size: 1.562rem;
-    margin-top: 60px;
+    font-size: 1.1rem;
+    margin-top: 80px;
   }
   
   .banner-info p:nth-child(4) {
-    margin-top: 30px;
-    border: 1px solid #000;
+    margin-top: 70px;
     width: 88px;
     font-size: 1.25rem;
     font-weight: 700;
@@ -212,7 +214,30 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
+  .banner-info {
+    top: 100px;
+    left: 20px;
+    color: #000;
+    line-height: 1.5;
+  }
+
+  .banner-info h1 {
+    font-size: 1.3rem;
+  }
+  
+  .banner-info h2 {
+    display: none;
+  }
+
+  .banner-info p:nth-child(4) {
+    margin-top: 350px;
+    width: 88px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+  }
+
   .swiper-container1 {
     width: 100%;
     margin: 0 auto;
@@ -221,20 +246,34 @@
   .swiper-container1 video {
     width: 450px;
   }
+
+  .fifanormal {
+    display: none;
+  }
+
+  .fifa750 {
+    display: block;
+  }
 }
 
 
 @media (max-width: 450px) {
-  .banner-info h2 {
-    font-size: 1.562rem;
-    margin-top: 200px;
+  .banner-info {
+    top: 0px;
+    left: 20px;
+    color: #000;
+    line-height: 1.5;
   }
 
   .banner-info p:nth-child(4) {
-    border: 1px solid #000;
+    margin-top: 500px;
     width: 70px;
     font-size: 1rem;
     font-weight: 700;
     color: #000;
+  }
+
+  .swiper-container1 video {
+    width: 350px;
   }
 }
