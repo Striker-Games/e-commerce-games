@@ -5,6 +5,10 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: 'true',
     },
+    speed: 1000,
+    autoplay: {
+        delay: 3500
+    },
     breakpoints: {
       640: {
         slidesPerView: 2,
