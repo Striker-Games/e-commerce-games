@@ -76,8 +76,8 @@
 }
 
 .swiper-background {
-  background: rgb(21,122,240);
-  background: linear-gradient(9deg, rgba(21,122,240,1) 6%, rgba(8,37,97,0.6418942577030813) 41%);
+  background: rgb(1,48,198);
+  background: linear-gradient(0deg, rgba(1,48,198,1) 4%, rgba(8,37,97,0.6418942577030813) 41%);
 }
 
 .swiper-background h2 {
@@ -191,6 +191,57 @@
   object-fit: cover;
 }
 
+.section-todos-jogos {
+  background-color: #0130c6;
+  width: 100%;
+}
+
+.todos-jogos {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.section-todos-jogos img {
+  height: 371px;
+}
+
+.todos-jogos-textos {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.todos-jogos-textos h3 {
+  font-size: calc(1rem*2.44141);
+  margin-bottom: 30px;
+}
+
+.todos-jogos-textos p {
+  font-size: 18px;
+}
+
+.botao-jogos {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--cor-principal);
+  width: 200px;
+  padding: 0.5rem;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.fundo2 {
+  display: none;
+}
+
+
 @media (max-width: 1250px) {
   .swiper-container1 {
     display: flex;
@@ -271,6 +322,21 @@
 @media (max-width: 750px) {
   .popup-image img {
     width: 95%;
+  }
+
+  .todos-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fundo1 {
+    display: none;
+  }
+
+  .fundo2 {
+    display: block;
   }
 }
 
