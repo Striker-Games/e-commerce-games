@@ -92,6 +92,7 @@
   display: block;
   border-radius: 20px;
   box-sizing: border-box;
+  transition: border 0.2s, padding 0.2s;
 }
 
 .swiper-container1 {
