@@ -5,11 +5,11 @@
 O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a nós mesmos com base nas ferramentas e conhecimentos adquiridos durante o período acadêmico. O foco principal é desenvolver um e-commerce fictício de jogos.
 
 
-## Layout Web
+## Layout Web - Tela Home
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 
-## Layout Mobile
+## Layout Mobile - Tela Home
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 
@@ -18,6 +18,18 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 - HTML 
 - CSS
 - JS
+- Figma
+- Netlify
+
+## Back end
+- C Sharp .NET
+- Entity Framework Core
+-  Google Cloud.
+
+## Banco de Dados
+- PostgreSQL
+- BrModelo - Modelagem Conceitual e logica
+- SQL Power Architect - Modelagem Física.
 
 
 # Autores
