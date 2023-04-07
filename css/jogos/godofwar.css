@@ -7,6 +7,7 @@
 .banner-section2 {
   position: relative;
   max-width: 100%;
+  background-color: #0130c6;
 }
 
 .banner-info {
@@ -355,6 +356,6 @@
     width: 70px;
     font-size: 1rem;
     font-weight: 700;
-    color: #000;
+    color: #fff;
   }
 }
