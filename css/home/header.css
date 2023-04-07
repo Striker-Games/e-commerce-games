@@ -7,10 +7,6 @@ img {
 }
 
 /* HEADER */
-.dark {
-  background-color: #464646;
-}
-
 .header-container {
   max-width: 1440px;
   padding: 1rem;

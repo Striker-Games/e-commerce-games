@@ -90,7 +90,6 @@ nav.hamburger-menu aside ul ul li span {
      }
   nav.hamburger-menu:not(.collapse-menu):hover .hamburger + aside {
      max-width: 400px;  /* used for animation -- must be greater than actual displayed width */
-     overflow-y: scroll;
      }
   }
   nav.hamburger-menu img {
