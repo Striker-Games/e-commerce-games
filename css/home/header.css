@@ -22,7 +22,7 @@ img {
 }
 
 .header-logo {
-  width: 3.75rem;
+  width: 8rem;
 }
 
 .header-logo-meio {
@@ -180,15 +180,19 @@ hr {
   border: 3px solid var(--cor-principal);
 }
 
-@media (max-width: 932px) {
+@media (max-width: 985px) {
   .header-input input {
     width: 20rem;
   }
 }
 
-@media (max-width: 853px) {
+@media (max-width: 900px) {
   .header-input input {
     width: 15rem;
+  }
+
+  .header-logo {
+    width: 5rem;
   }
 }
 
