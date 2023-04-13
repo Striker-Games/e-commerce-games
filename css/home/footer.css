@@ -1,0 +1,143 @@
+.section-todos-jogos {
+  margin-top: 100px;
+  background-color: var(--cor-principal);
+  width: 100%;
+}
+
+.todos-jogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.section-todos-jogos img {
+  width: 100%;
+}
+
+.todos-jogos-textos {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  position: absolute;
+  margin-left: 100px;
+}
+
+.todos-jogos-textos h3 {
+  font-size: calc(1rem*2.5);
+  margin-bottom: 1,875rem;
+}
+
+.todos-jogos-textos p {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+.botao-jogos {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--cor-principal);
+  width: 200px;
+  padding: 0.5rem;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.fundo2 {
+  display: none;
+}
+
+.footer-container {
+  height: 204px;
+  background-color: var(--cor-principal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+@media (max-width: 1100px) {
+  .todos-jogos-textos h3 {
+    font-size: calc(1rem*2);
+    margin-bottom: 1,875rem;
+  }
+  
+  .todos-jogos-textos p {
+    width: 80%;
+    margin-top: 3rem;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .todos-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todos-jogos-textos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 100px;
+  }
+
+  .todos-jogos-textos p {
+    margin-top: 3rem;
+    font-size: 20px;
+  }
+
+  .fundo1 {
+    display: none;
+  }
+
+  .fundo2 {
+    display: block;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .todos-jogos-textos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+    margin-right: 100px;
+  }
+
+  .todos-jogos-textos h3 {
+    font-size: calc(1rem*1.5);
+  }
+
+  .todos-jogos-textos p {
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+
+  .botao-jogos {
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-principal);
+    width: 200px;
+    padding: 0.3rem 0.5rem;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,293 @@
+/* BANNER SECTION */
+
+.banner-section {
+  position: relative;
+  max-width: 100%;
+}
+
+.banner-imagem img {
+  width: 100%;
+  height: 668px;
+}
+
+.banner-botao {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--cor-banner-botao);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  text-transform: uppercase;
+  top: 450px;
+  left: 150px;
+}
+
+.banner-botao2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--cor-branco);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+  position: absolute;
+  text-transform: uppercase;
+  top: 450px;
+  left: 150px;
+}
+
+.banner-botao3 {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(214, 61, 0, 1);
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  text-transform: uppercase;
+  top: 450px;
+  left: 150px;
+}
+
+.banner-botao:hover, .banner-botao3:hover {
+  border: 2px solid white;
+}
+
+.banner-botao2:hover {
+  border: 2px solid #000;
+}
+
+.img-top {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  width: 10px;
+  height: 10px;
+}
+
+.img1, .img2, .img3 {
+  display: none;
+}
+
+/* SWIPER */
+
+.swiper {
+  max-width: 100%;
+  height: 600px;
+}
+
+.swiper-slide {
+  position: relative;
+  opacity: 1;
+}
+
+h2.swiper-descricao {
+  color: #fff;
+  position: absolute;
+  top: 290px;
+  left: 150px;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  opacity: 1;
+}
+
+p.swiper-descricao {
+  color: #fff;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  font-size: calc(1rem);
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  opacity: 1;
+}
+
+.swiperdiv1 {
+  position: absolute;
+  overflow: none;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../img/banners/re4logo400.png");
+  background-repeat: no-repeat;
+  margin-top: 130px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+
+.swiperdiv2 {
+  position: absolute;
+  overflow: none;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../img/banners/apexlogo400.png");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.swiperdiv3 {
+  position: absolute;
+  overflow: none;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../img/banners/horizonlogo200.png");
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+@media (max-width: 1600px) {
+  .img-principal {
+    display: none;
+  }
+
+  .img1 {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+  }
+  
+  .banner-botao, .banner-botao2, .banner-botao3 {
+    font-size: 15px;
+    top: 500px;
+    left: 100px;
+  }
+
+  h2.swiper-descricao {
+    font-size: 28px;
+    top: 370px;
+    left: 100px;
+  }
+
+  p.swiper-descricao {
+    font-size: calc(0.9rem);
+    top: 420px;
+    left: 100px;
+  }
+  
+  .swiperdiv1 {
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+
+  .swiperdiv2 {
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+
+  .swiperdiv3 {
+    margin-top: 140px;
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  .img2{
+    display: none;
+  }
+  
+  .img3 {
+    display: block;
+  }
+
+  .banner-botao, .banner-botao2, .banner-botao3 {
+    font-size: 15px;
+    top: 550px;
+    left: 30px;
+  }
+
+  h2.swiper-descricao {
+    font-size: 25px;
+    top: 400px;
+    left: 30px;
+  }
+
+  p.swiper-descricao {
+    font-size: calc(0.8rem);
+    top: 450px;
+    left: 30px;
+  }
+
+  .swiperdiv1 {
+    margin-top: 300px;
+    margin-left: 30px;
+  }
+
+  .swiperdiv2 {
+    background-image: url("../../img/banners/apexlogo200.png");
+    margin-top: 250px;
+  }
+
+  .swiperdiv3 {
+    margin-top: 170px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .banner-botao, .banner-botao2, .banner-botao3 {
+    font-size: 15px;
+    top: 550px;
+    left: 30px;
+  }
+
+  h2.swiper-descricao {
+    font-size: 20px;
+    top: 420px;
+    left: 30px;
+  }
+
+  p.swiper-descricao {
+    font-size: calc(0.7rem);
+    top: 470px;
+    left: 30px;
+  }
+
+  .swiperdiv2 {
+    margin-top: 270px;
+  }
+
+  .swiperdiv3 {
+    margin-top: 200px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .botao1 {
+    top: 560px;
+  }
+
+  .swiperdiv1 {
+    background-image: url("../../img/banners/re4logo200.png");
+    margin-top: 360px;
+    margin-left: 30px;
+  }
+
+  .swiperdiv3 {
+    display: none;
+  }
+}

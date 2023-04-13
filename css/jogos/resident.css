@@ -1,0 +1,401 @@
+.banner-section1 {
+  height: 668px;
+  position: relative;
+  max-width: 100%;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.banner-imagem1 img {
+  width: 100%;
+  height: 668px;
+}
+
+.banner-info h1 {
+  font-size: 3rem;
+}
+
+.banner-info span {
+  border: 1px solid #fff;
+  padding: 0 0.3rem;
+}
+
+.banner-info h2 {
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.banner-info p:nth-child(4) {
+  margin-top: 50px;
+  width: 130px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.banner-botao-adicionar {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--cor-principal);
+  width: 200px;
+  padding: 0.5rem;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner-botao-adicionar:hover {
+  border: 1px solid #fff;
+}
+
+.swiper-background {
+  background: rgb(1,48,198);
+  background: linear-gradient(0deg, rgba(1,48,198,1) 2%, rgba(18,19,20,1) 7%);
+}
+
+.background {
+  background: rgb(1,48,198);
+}
+
+.swiper-background h2 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: calc(1rem*2.44141);
+  color: #fff;
+  font-weight: 400;
+}
+
+.swiper {
+  width: 90%;
+  height: 100%;
+}
+
+.swiper p {
+  color: #fff;
+  text-align: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 589px;
+  margin-top: 50px;
+  display: block;
+  border-radius: 20px;
+  box-sizing: border-box; 
+  transition: border 0.2s, padding 0.2s;
+}
+
+.swiper-slide p {
+  color: #fff;
+}
+
+.swiper-container1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.swiper-text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.swiper-text p {
+  margin-top: 100px;
+}
+
+.swiper-jogos {
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-container1 {
+  margin-top: 60px;
+}
+
+.swiper-container1 img {
+  width: 589px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.swiper-container1 h3 {
+  margin-left: 13px;
+  font-size: 23px;
+  color: #fff;
+}
+
+.swiper-container1 p {
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.swiper-slide img:hover, .swiper-container1 img:hover {
+  padding: 0.1rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.elden750 {
+  display: none;
+}
+
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.popup-image span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popup-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 750px;
+  object-fit: cover;
+}
+
+.section-todos-jogos {
+  margin-top: 60px;
+  background-color: #0130c6;
+  width: 100%;
+}
+
+.todos-jogos {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.section-todos-jogos img {
+  height: 371px;
+}
+
+.todos-jogos-textos {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.todos-jogos-textos h3 {
+  font-size: calc(1rem*2.44141);
+  margin-bottom: 30px;
+}
+
+.todos-jogos-textos p {
+  font-size: 18px;
+}
+
+.botao-jogos {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 200px;
+  padding: 0.5rem;
+  margin-top: 30px;
+  font-size: 18px;
+  color: var(--cor-principal);
+  font-weight: 700;
+}
+
+.fundo2 {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .swiper-container1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper-jogos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .swiper-jogos img {
+    margin: 0 auto;
+  }
+
+  .swiper-container1 h3 {
+    margin-top: 30px;
+  }
+
+  .swiper-container1 p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-info {
+    top: 100px;
+    left: 20px;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .banner-info h1 {
+    font-size: 3rem;
+  }
+  
+  .banner-info p:nth-child(2) {
+    font-size: 15px;
+  }
+  
+  .banner-info span {
+    border: 1px solid #fff;
+    padding: 0 0.3rem;
+  }
+  
+  .banner-info h2 {
+    font-size: 1.5rem;
+    margin-top: 80px;
+  }
+  
+  .banner-info p:nth-child(4) {
+    margin-top: 70px;
+    width: 88px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .banner-botao-adicionar {
+    width: 150px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 750px) {
+  .popup-image img {
+    width: 95%;
+  }
+
+  .banner-info {
+    top: 30px;
+    left: 20px;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .banner-info h1 {
+    font-size: 1.3rem;
+  }
+  
+  .banner-info h2 {
+    display: none;
+  }
+
+  .banner-info p:nth-child(4) {
+    margin-top: 450px;
+    width: 88px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .swiper-container1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .swiper-container1 img {
+    width: 450px;
+  }
+
+  .eldennormal {
+    display: none;
+  }
+
+  .elden750 {
+    display: block;
+  }
+
+  .todos-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fundo1 {
+    display: none;
+  }
+
+  .fundo2 {
+    display: block;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+  .banner-info {
+    top: 0px;
+    left: 20px;
+    color: #fff;
+    line-height: 1.5;
+  }
+
+  .banner-info p:nth-child(4) {
+    margin-top: 500px;
+    width: 70px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .swiper-container1 img {
+    width: 350px;
+  }
+}

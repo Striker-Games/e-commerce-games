@@ -1,0 +1,11 @@
+/* HamburgerMenu ☰ Custom width and colors */
+nav.hamburger-menu aside {
+  width: 250px;
+  }
+nav.hamburger-menu {
+  color: var(--cor-principal);           /* menu font color */
+  }
+nav.hamburger-menu aside ul li{
+  border: none;
+  background-color: #fff;
+  }

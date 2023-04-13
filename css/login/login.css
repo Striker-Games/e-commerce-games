@@ -1,0 +1,231 @@
+body, p, h1, h2, h3, h4, a {
+  margin: 0px;
+  font-family: 'Inder', sans-serif;
+}
+
+body {
+  background: #121314;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.container-imagem {
+  max-width: 990px;
+}
+
+.container-imagem img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.container-conteudo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 760px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-logo img {
+  margin-bottom: 30px;
+  width: 229px;
+  height: 216px;
+}
+
+.container-titulo {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+  line-height: 40px;
+}
+
+.container-titulo p{
+  font-size: 20px;
+}
+
+.container-login {
+  display: flex;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.botao-logar {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #121314;
+  filter: brightness(80%);
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.botao-logar i, .botao-logarFace i {
+  margin-right: 10px;
+}
+
+.botao-logarFace {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+  color: #fff;
+  filter: brightness(80%);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container-form {
+  width: 50%;
+  height: 30%;
+  margin-top: 30px;
+  margin-right: 40px;
+  color: #fff;
+}
+
+.input1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.input2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.style {
+  border: none;
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 0.8rem;
+  font-size: 18px;
+  filter: brightness(20%);
+}
+
+.container-form label {
+  font-size: 15px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.container-check a {
+  color: #fff;
+}
+
+.container-check label {
+  margin-right: 160px;
+}
+
+.container-botao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.botao-iniciar {
+  border-radius: 10px;
+  padding: 0.5rem 4rem;
+  background-color: #fff;
+  color: #121314;
+  filter: brightness(80%);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.botao-criar {
+  border-radius: 10px;
+  padding: 0.5rem 4rem;
+  background-color: #121314;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1600px) {
+  .style {
+    width: 30rem;  
+  }
+
+  .container-check label {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 95px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .style {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 18px;
+    filter: brightness(20%);
+  }
+  
+  .container-check label {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 74px;
+  }
+
+  .container-check a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-imagem {
+    display: none;
+  }
+
+  .container-check label {
+    margin-right: 160px;
+  }
+
+  .style {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem auto;
+    font-size: 18px;
+    filter: brightness(20%);
+  }
+}
+
+@media (max-width: 730px) {
+  .container-check label {
+    margin-right: 0px;
+  }
+
+  .container-check a {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+
+}

@@ -1,0 +1,10 @@
+/* Home */
+@import "./home/header.css";
+@import "./home/banners.css";
+@import "./home/jogos.css";
+@import "./home/hamburger-menu.css";
+@import "./home/style-menu-hamburger.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
