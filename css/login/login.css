@@ -71,11 +71,12 @@ img {
   border-radius: 10px;
   padding: 0.5rem 1rem;
   background-color: #fff;
-  color: #121314;
-  filter: brightness(80%);
+  color: #ffffff;
+  /* filter: brightness(80%); */
   margin-bottom: 10px;
   text-align: center;
   margin-right: 15px;
+  background: linear-gradient(to right, #DE3F32, #E38179);
 }
 
 .botao-logar i, .botao-logarFace i {
@@ -85,11 +86,12 @@ img {
 .botao-logarFace {
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   color: #fff;
-  filter: brightness(80%);
+  /* filter: brightness(80%); */
   margin-bottom: 10px;
   text-align: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
 }
 
 .container-form {
