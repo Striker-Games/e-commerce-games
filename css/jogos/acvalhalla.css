@@ -21,17 +21,15 @@
 }
 
 .banner-info2 {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 0px;
-    left: 1000px;
-    color: #ffffff;
+    top: 80px;
+    left: 100px;
+    color: #fff;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    max-width: 400px; /* você pode ajustar o valor máximo de acordo com suas necessidades */
-    padding: 0 2%; /* você pode ajustar o valor de preenchimento de acordo com suas necessidades */
 }
-
 
 .banner-imagem1 img {
     width: 100%;
@@ -78,9 +76,9 @@
 }
 
 .banner-info2 h2 {
-    font-size: 30px;
-    margin-top: 50px;
-    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .info p {
@@ -90,8 +88,10 @@
 }
 
 .banner-info2 p {
-    margin-top: 50px;
-    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .banner-info p {
@@ -121,7 +121,7 @@
     text-decoration: none;
     text-align: center;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #1F1F1F;
     width: 200px;
     padding: 0.5rem;
@@ -333,14 +333,15 @@
         font-size: 15px;
         color: #fff;
     }
-    .banner-info2{
+
+    .banner-info2 {
         top: 50px;
-        left: 600px;
+        left: 30px;
         color: #fff;
         line-height: 1.5;
     }
 
-    .banner-info2 h1{
+    .banner-info2 h1 {
         font-size: 2.5rem;
     }
 
@@ -367,7 +368,7 @@
         line-height: 1.5;
     }
 
-    .banner-info2{
+    .banner-info2 {
         top: 50px;
         left: 30px;
         color: #fff;
@@ -378,7 +379,7 @@
         font-size: 2.5rem;
     }
 
-    .banner-info2 h1{
+    .banner-info2 h1 {
         font-size: 2.5rem;
     }
 
@@ -469,6 +470,7 @@
         font-size: 1.25rem;
         font-weight: 700;
         color: #fff;
+        display: none;
     }
 }
 
@@ -495,6 +497,8 @@
         margin-top: 0px;
         font-size: 23px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: none;
+
     }
 
     .banner-info2 p:nth-child(2) {
