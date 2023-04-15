@@ -21,15 +21,17 @@
 }
 
 .banner-info2 {
-    display: flex;
-    flex-direction: column;
     position: absolute;
-    top: 80px;
-    left: 30px;
-    color: #fff;
+    top: 0px;
+    left: 1000px;
+    color: #ffffff;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 400px; /* você pode ajustar o valor máximo de acordo com suas necessidades */
+    padding: 0 2%; /* você pode ajustar o valor de preenchimento de acordo com suas necessidades */
 }
+
 
 .banner-imagem1 img {
     width: 100%;
@@ -78,9 +80,7 @@
 .banner-info2 h2 {
     font-size: 30px;
     margin-top: 50px;
-    margin-left: 1000px;
     font-family: 'Inter', sans-serif;
-
 }
 
 .info p {
@@ -91,9 +91,7 @@
 
 .banner-info2 p {
     margin-top: 50px;
-    margin-left: 1000px;
     font-family: 'Inter', sans-serif;
-
 }
 
 .banner-info p {
@@ -335,6 +333,30 @@
         font-size: 15px;
         color: #fff;
     }
+    .banner-info2{
+        top: 50px;
+        left: 600px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .banner-info2 h1{
+        font-size: 2.5rem;
+    }
+
+    .banner-info2 p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .banner-info2 span {
+        border: 1px solid #fff;
+        padding: 0 0.3rem;
+    }
+
+    .banner-info2 h2 {
+        font-size: 1.562rem;
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -345,11 +367,26 @@
         line-height: 1.5;
     }
 
+    .banner-info2{
+        top: 50px;
+        left: 30px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
     .banner-info h1 {
         font-size: 2.5rem;
     }
 
+    .banner-info2 h1{
+        font-size: 2.5rem;
+    }
+
     .banner-info p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .banner-info2 p:nth-child(2) {
         font-size: 10px;
     }
 
@@ -358,7 +395,17 @@
         padding: 0 0.3rem;
     }
 
+    .banner-info2 span {
+        border: 1px solid #fff;
+        padding: 0 0.3rem;
+    }
+
     .banner-info h2 {
+        font-size: 1.562rem;
+        margin-top: 60px;
+    }
+
+    .banner-info2 h2 {
         font-size: 1.562rem;
         margin-top: 60px;
     }
@@ -370,6 +417,15 @@
         font-weight: 700;
         color: #fff;
     }
+
+    .banner-info2 p:nth-child(4) {
+        margin-top: 30px;
+        width: 88px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
 
     .banner-botao-adicionar {
         width: 150px;
@@ -406,6 +462,14 @@
     .fundo2 {
         display: block;
     }
+
+    .banner-info2 p:nth-child(4) {
+        margin-top: 30px;
+        width: 88px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #fff;
+    }
 }
 
 
@@ -424,5 +488,24 @@
         font-size: 1rem;
         font-weight: 700;
         color: #fff;
+    }
+
+    .banner-info2 h2 {
+        font-size: 1.562rem;
+        margin-top: 0px;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .banner-info2 p:nth-child(2) {
+        font-size: 15px;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .banner-info2 p {
+        font-size: 15px;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
