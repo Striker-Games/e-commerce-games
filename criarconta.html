@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/256a315b5c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/login/criarconta.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+  <title>Striker Games | Criar Conta</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container-imagem">
+      <img src="https://myawsprojectwebgames.s3.amazonaws.com/loginimagem/imagemlogin.png" alt="">
+    </div>
+    <div class="container-conteudo">
+      <div class="container-logo">
+        <a href="index.html">
+          <img src="https://myawsprojectwebgames.s3.amazonaws.com/icones/logo.png" alt="Logo" class="header-logo">
+        </a>
+      </div>
+      <div class="container-titulo">
+        <p>Bem-vindo a</p>
+        <h1>Striker Games!</h1>
+      </div>
+      <div class="container-form">
+        <div class="form1">
+          <input type="text" id="nome" placeholder="Nome Completo*" class="input1 style" required>
+          <input type="number" id="cpf" placeholder="CPF*" class="input1 style" required>
+        </div>
+        <div class="form1">
+          <input type="text" id="email" placeholder="E-mail*" class="input1 style" required>
+          <input type="tel" id="telefone" placeholder="Telefone celular*" class="input1 style" required>
+        </div>
+        <div class="form1">
+          <input type="number" id="cep" placeholder="CEP*" class="input1 style" required>
+          <a href="#" id="btn">Procurar</a>
+        </div>
+        <div class="form1">
+          <input type="text" id="bairro" placeholder="Bairro" class="input1 style" disabled>
+          <input type="text" id="cidade" placeholder="Cidade" class="input1 style" disabled>
+        </div>
+        <div class="form1">
+          <input type="text" id="logradouro" placeholder="Logradouro" class="input1 style" disabled>
+          <input type="text" id="complemento" placeholder="Complemento" class="input1 style">
+        </div>
+        <div class="form1">
+          <input type="password" id="senha" placeholder="Crie sua senha*" class="input1 style" required>
+          <input type="password" id="senha2" placeholder="Confirme sua senha*" class="input1 style" required>
+        </div>
+        <div class="container-check">
+          <div>
+            <input type="checkbox" id="lembrar">
+            <label for="lembrar">Lembrar</label>
+          </div>
+          <a href="#">Esqueci a senha</a>
+        </div>
+      </div>
+      <div class="container-botao">
+        <a href="#" class="botao-criar">Criar Conta</a>
+      </div>
+    </div>
+  </div>
+  <script src="/js/cep.js"></script>
+</body>
+</html>
