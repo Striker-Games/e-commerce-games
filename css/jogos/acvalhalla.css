@@ -1,0 +1,515 @@
+.banner-section1 {
+    height: 668px;
+    position: relative;
+    max-width: 100%;
+}
+
+.banner-section2 {
+    position: relative;
+    max-width: 100%;
+    background-color: #0130c6;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.banner-info2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: #fff;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-imagem1 img {
+    width: 100%;
+    height: 668px;
+    opacity: 0.8;
+    width: 100%;
+    height: 668px;
+    filter: brightness(50%);
+}
+
+.banner-imagem2 img {
+    width: 100%;
+    height: 668px;
+    opacity: 0.8;
+    width: 100%;
+    height: 668px;
+    filter: brightness(50%);
+}
+
+.banner-info h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-info2 h1 {
+    font-size: 3rem;
+}
+
+.banner-info span {
+    border: 1px solid #fff;
+    padding: 0 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-info2 span {
+    border: 1px solid #fff;
+    padding: 0 0.3rem;
+}
+
+.banner-info h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-info2 h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-info2 p {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.banner-info p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-info p:nth-child(4) {
+    margin-top: 50px;
+    width: 130px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+}
+
+.banner-info2 p:nth-child(4) {
+    margin-top: 50px;
+    width: 130px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-botao-adicionar {
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #1F1F1F;
+    width: 200px;
+    padding: 0.5rem;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-botao-adicionar:hover {
+    border: 1px solid #fff;
+}
+
+.swiper-background {
+    background: rgb(1, 48, 198);
+    background: linear-gradient(0deg, rgb(41, 40, 104) 30%, rgb(32, 30, 30) 48%);
+    filter: brightness(90%);
+}
+
+.swiper-background h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.swiper {
+    width: 90%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 589px;
+    margin-top: 50px;
+    display: block;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.swiper-container1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.swiper-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.swiper-text p {
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.swiper-jogos {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-container1 img {
+    width: 589px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.swiper-container1 h3 {
+    margin-left: 13px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.swiper-container1 p {
+    margin-top: 15px;
+    margin-left: 13px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.swiper-slide img:hover,
+.swiper-container1 img:hover {
+    padding: 0.1rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.imggod1 {
+    display: none;
+}
+
+.popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+.section-todos-jogos {
+    background-color: #0130c6;
+    width: 100%;
+}
+
+.todos-jogos {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.section-todos-jogos img {
+    height: 371px;
+}
+
+.todos-jogos-textos {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.todos-jogos-textos h3 {
+    font-size: calc(1rem*2.44141);
+    margin-bottom: 30px;
+}
+
+.todos-jogos-textos p {
+    font-size: 18px;
+}
+
+.botao-jogos {
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    padding: 0.5rem;
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.fundo2 {
+    display: none;
+}
+
+
+@media (max-width: 1250px) {
+    .swiper-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-jogos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-jogos img {
+        margin: 0 auto;
+    }
+
+    .swiper-container1 h3 {
+        margin-top: 30px;
+    }
+
+    .swiper-container1 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .banner-info2 {
+        top: 50px;
+        left: 30px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .banner-info2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-info2 p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .banner-info2 span {
+        border: 1px solid #fff;
+        padding: 0 0.3rem;
+    }
+
+    .banner-info2 h2 {
+        font-size: 1.562rem;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .banner-info {
+        top: 50px;
+        left: 30px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .banner-info2 {
+        top: 50px;
+        left: 30px;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .banner-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-info2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-info p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .banner-info2 p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .banner-info span {
+        border: 1px solid #fff;
+        padding: 0 0.3rem;
+    }
+
+    .banner-info2 span {
+        border: 1px solid #fff;
+        padding: 0 0.3rem;
+    }
+
+    .banner-info h2 {
+        font-size: 1.562rem;
+        margin-top: 60px;
+    }
+
+    .banner-info2 h2 {
+        font-size: 1.562rem;
+        margin-top: 60px;
+    }
+
+    .banner-info p:nth-child(4) {
+        margin-top: 30px;
+        width: 88px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .banner-info2 p:nth-child(4) {
+        margin-top: 30px;
+        width: 88px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+
+    .banner-botao-adicionar {
+        width: 150px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .imggod {
+        display: none;
+    }
+
+    .imggod1 {
+        display: block;
+    }
+}
+
+@media (max-width: 750px) {
+    .popup-image img {
+        width: 95%;
+    }
+
+    .todos-jogos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fundo1 {
+        display: none;
+    }
+
+    .fundo2 {
+        display: block;
+    }
+
+    .banner-info2 p:nth-child(4) {
+        margin-top: 30px;
+        width: 88px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #fff;
+        display: none;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .info p {
+        display: none;
+    }
+
+    .banner-info h2 {
+        display: none;
+    }
+
+    .banner-info p:nth-child(4) {
+        margin-top: 350px;
+        width: 70px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .banner-info2 h2 {
+        font-size: 1.562rem;
+        margin-top: 0px;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: none;
+
+    }
+
+    .banner-info2 p:nth-child(2) {
+        font-size: 15px;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .banner-info2 p {
+        font-size: 15px;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
