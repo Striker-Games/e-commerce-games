@@ -48,6 +48,15 @@
   box-sizing: border-box;
 }
 
+.img-input {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
 .imgs:hover {
   padding: 2px;
   border: 1px solid var(--cor-principal);

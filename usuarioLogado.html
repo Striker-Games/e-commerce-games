@@ -5,21 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jogos | Final Fantasy XVI</title>
   <!-- Font Awesome Link -->
   <script src="https://kit.fontawesome.com/256a315b5c.js" crossorigin="anonymous"></script>
-  <!-- Styles -->
-  <link rel="shortcut icon" href="https://myawsprojectwebgames.s3.amazonaws.com/icones/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/jogos/finalfantasy.css">
-  <link rel="stylesheet" href="./css/home/footer-jogos.css">
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/home/todosjogos.css">
+  <link rel="stylesheet" href="css\footer\footer.css">
+  <link rel="stylesheet" href="css\home\footer1.css">
+  <link rel="stylesheet" href="css/home/carrinho.css">
+  <link rel="stylesheet" href="./css/login/mudarconta.css">
+  <title>Striker Games | Minha Conta</title>
 </head>
 
 <body>
@@ -46,12 +43,39 @@
       <a href="index.html"><img src="https://myawsprojectwebgames.s3.amazonaws.com/icones/logo.png" alt="Logo" class="header-logo-meio"></a>
       <div class="header-all-botao">
         <div class="header-botao">
-          <a href="#">Carrinho</a>
+          <a href="#" class="cart-btn">Carrinho</a>
           <a href="#"><img src="https://myawsprojectwebgames.s3.amazonaws.com/icones/carrinho.svg" alt=""></a>
         </div>
         <div class="header-botao">
-          <a href="login.html">Iniciar Sessao</a>
+          <a href="usuarioLogado.html">Minha Conta</a>
           <a href="login.html"><img src="https://myawsprojectwebgames.s3.amazonaws.com/icones/conta.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+          </span>
+          <h2>your cart</h2>
+          <div class="cart-content">
+            <div class="cart-item">
+              <img src="img/jogos/fifa.png" alt="">
+              <div>
+                <h4>FIFA 23</h4>
+                <h5>R$ 300,00</h5>
+                <span class="remove-item">remover</span>
+              </div>
+              <div>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount">1</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cart-footer">
+            <h3>total: R$ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">limpar carrinho</button>
+          </div>
         </div>
       </div>
     </div>
@@ -85,85 +109,38 @@
     </div>
   </section>
 
-  <hr>
-
-  <section class="banner-section1">
-    <div class="banner-imagem1">
-      <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final1.jpg" alt="" class="finalnormal">
-      <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final2.png" alt="" class="final750">
-    </div>
-    <div class="banner-info">
-      <h1>Final Fantasy XVI</h1>
-      <p>Disponível para <span>PS5</span></p>
-      <h2>Conheça Valisthea, um mundo <br>sombrio de fantasia, neste tão <br>aguardado RPG de ação para um <br>jogador.</h2>
-      <p>R$349,90</p>
-      <a href="" class="banner-botao-adicionar">Adicionar ao Carrinho</a>
-    </div>
-  </section>
-
-  <section class="swiper-background">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final3.png" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final4.png" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final5.png" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final6.png" alt="">
-        </div>
+  <div class="container">
+    <div class="container-conteudo">
+      <div class="container-titulo">
+        <p>Bem-vindo a</p>
+        <h1>Striker Games <span class="output"></span>!</h1>
       </div>
-      <div class="swiper-pagination"></div>
-    </div>
-    <div class="popup-image">
-      <span>&times;</span>
-      <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final3.png" alt="">
-    </div>
-
-    <h2>Características principais de Final Fantasy XVI</h2>
-    <div class="swiper-container1">
-      <div class="swiper-jogos">
-        <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final7.png" alt="">
-        <div class="swiper-text">
-          <h3>Da bênção à ruína</h3>
-          <p>Descubra um mundo outrora próspero, mas que se vê frente a uma Praga que pode acabar com seus domínios e com a frágil paz que por tanto tempo houve entre eles.<br><br>A história de Final Fantasy XVI segue a vida de Clive Rosfield, o personagem principal do jogo, que nasceu como o primogênito de uma família nobre no Reino de Valisthea.
-          </p>
+      <div class="container-form">
+        <div class="form1">
+          <input type="text" id="nome" placeholder="Nome Completo*" class="input1 style" required>
+          <input type="number" id="cpf" placeholder="CPF*" class="input1 style" required>
         </div>
-      </div>
-      <div class="swiper-jogos">
-        <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final8.png" alt="">
-        <div class="swiper-text">
-          <h3>Uma guerra dos Eikons</h3>
-          <p>Coloque Eikon contra Eikon em disputas monumentais de encher os olhos, com você no centro da ação épica.<br><br>No mundo de Valisthea, diferentes nações lutam pelo controle dos Eikons, que são considerados seres divinos capazes de mudar o rumo da guerra e determinar o futuro das nações. Os governantes e líderes militares buscam capturar e controlar os Eikons para ganhar vantagem sobre seus inimigos, e essa disputa pelo poder é uma das principais causas da guerra.</p>
+        <div class="form1">
+          <input type="text" id="email" placeholder="E-mail*" class="input1 style" required>
+          <input type="tel" id="telefone" placeholder="Telefone celular*" class="input1 style" required>
         </div>
-      </div>
-      <div class="swiper-jogos">
-        <img src="https://myawsprojectwebgames.s3.amazonaws.com/finalfantasy/final9.png" alt="">
-        <div class="swiper-text">
-          <h3>Libere poderes incríveis</h3>
-          <p>Clive Rosfield pode usar o poder dos diversos Eikons do jogo para ampliar seu arsenal de ataques e combater monstros, inimigos e Dominantes poderosos. Uma vez que a barra estiver cheia, o jogador poderá ativar a invocação, e o Eikon surgirá no campo de batalha.<br><br>Uma vez que o Eikon estiver invocado, o jogador poderá controlá-lo para executar habilidades poderosas, como golpes devastadores, proteção contra ataques inimigos e até mesmo cura para os personagens aliados</p>
+        <div class="form1">
+          <input type="number" id="cep" placeholder="CEP*" class="input1 style" required>
+          <input type="text" id="logradouro" placeholder="Logradouro" class="input1 style">
+        </div>
+        <div class="form1">
+          <input type="text" id="bairro" placeholder="Bairro" class="input1 style">
+          <input type="text" id="cidade" placeholder="Cidade" class="input1 style">
+        </div>
+        <div class="form1">
+          <input type="password" id="senha" placeholder="" class="input1 style" required>
+        </div>
+        <div class="container-botao">
+          <a href="#" class="botao-criar" id="submit">Atualizar Conta</a>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="section-todos-jogos">
-    <div class="todos-jogos">
-      <div class="todos-jogos-textos">
-        <h3>Descubra outros ótimos jogos</h3>
-        <p>Explore uma variedade de títulos fantásticos já disponíveis ou que serão <br>lançados em breve.</p>
-        <a href="index.html" class="botao-jogos">Navegar pelos jogos</a>
-      </div>
-      <div class="todos-jogos-container">
-        <img src="https://myawsprojectwebgames.s3.amazonaws.com/jogos-fundo/fundo.jpg" alt="" class="fundo1">
-        <img src="https://myawsprojectwebgames.s3.amazonaws.com/jogos-fundo/fundomenor.jpg" alt="" class="fundo2">
-      </div>
-    </div>
-  </section>
+  </div>
 
   <footer>
     <div id="footer_content">
@@ -237,9 +214,7 @@
     </div>
   </footer>
 
-  <script src="./js/script-jogos.js">
-  </script>
-  <script src="js/app.js"></script>
+  <script src="./js/minhaconta.js"></script>
 </body>
 
 </html>

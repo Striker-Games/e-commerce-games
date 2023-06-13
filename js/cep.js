@@ -31,18 +31,31 @@ async function registrarCliente(event) {
   event.preventDefault();
 
   const name = document.getElementById('nome').value;
+  const senha = document.getElementById('senha').value;
   const email = document.getElementById('email').value;
   const phone = document.getElementById('telefone').value;
   const cpf = document.getElementById('cpf').value;
+  const cep = document.getElementById('cep').value;
+  const bairro = document.getElementById('bairro').value;
+  const cidade = document.getElementById('cidade').value;
+  const logradouro = document.getElementById('logradouro').value;
+  const complemento = document.getElementById('complemento').value;
 
   const requestBody = {
-    name: name,
+    nome: name,
+    senha: senha,
     email: email,
-    phone: phone,
+    telefone: phone,
     cpf: cpf,
+    cep: cep,
+    bairro: bairro,
+    cidade: cidade,
+    bairro: bairro,
+    logradouro: logradouro,
+    complemento: complemento,
   };
 
-  const url = 'http://localhost:8080/pethotel/client';
+  const url = 'http://localhost:8080/api/clientes';
 
   try {
     const response = await fetch(url, {
@@ -54,7 +67,10 @@ async function registrarCliente(event) {
     });
     const dataJson = await response.json();
     if (response.status === 201) {
-      window.location.href = './index.html';
+      alert('Conta Criada');
+      window.location.href = './login.html';
+    } else {
+      alert('Digite os dados corretamente.');
     }
     console.log(dataJson);
     console.log(response.status);

@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "fields": {
+        "title": "Street Fighter",
+        "price": 101.99,
+        "image": { "fields": { "file": { "url": "img/jogos/street.png" } } },
+        "link": "streefighter.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "FIFA 23",
+        "price": 105.99,
+        "image": { "fields": { "file": { "url": "img/jogos/fifa.png" } } },
+        "link": "fifa.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "Spider-Man",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/spider.png" } } },
+        "link": "spiderman.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "Elden Ring",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/elden.png" } } },
+        "link": "eldenring.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "God of War",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/godofwar.png" } } },
+        "link": "godofwar.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "AS Valhalla",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/acv.png" } } },
+        "link": "acvalhalla.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "Final Fantasy",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/final.png" } } },
+        "link": "finalfantasy.html"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hogwarts Legacy",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/jogos/hp.png" } } },
+        "link": "#"
+      }
+    },
+    {
+      "fields": {
+        "title": "Resident Evil 4",
+        "price": 100.99,
+        "image": { "fields": { "file": { "url": "img/banners/re4800.png" } } },
+        "link": "resident.html"
+      }
+    }
+  ]
+}

@@ -11,6 +11,7 @@ img {
   max-width: 1440px;
   padding: 1rem;
   margin: 1.25rem auto;
+  position: relative;
 }
 
 .header-all {
@@ -34,6 +35,38 @@ img {
   display: flex;
   align-items: center;
   position: relative;
+}
+
+.text-input {
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.a-input {
+  text-decoration: none;
+}
+
+.output {
+  background: #15235a;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 43px;
+  gap: 10px;
+  width: 100%;
+  border-radius: 20px;
+
+  transform-origin: 0 0;
+  transform: translateX(15px);
+
+  transition-property: transform, opacity;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  z-index: 200;
 }
 
 .header-all input {

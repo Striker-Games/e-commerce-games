@@ -1,0 +1,159 @@
+body, p, h1, h2, h3, h4, a {
+  margin: 0px;
+  font-family: 'Inder', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.container-imagem {
+  max-width: 990px;
+}
+
+.container-imagem img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.container-conteudo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 760px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-titulo {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  color: #15235a;
+  line-height: 40px;
+}
+
+.container-titulo p{
+  font-size: 20px;
+}
+
+.container-form {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+}
+
+.form1 {
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.input1 {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  max-width: 100%;
+  background-color: #15235a;
+  color: #fff;
+}
+
+.style {
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.container-form label {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.container-check {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-check a {
+  color: #fff;
+}
+
+.container-botao {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+#btn {
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 0.5rem 4rem;
+  background-color: #15235a;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.botao-criar {
+  border-radius: 10px;
+  padding: 0.5rem 4rem;
+  background-color: #121314;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1500px) {
+  .container-imagem {
+    display: none;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .style {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 730px) {
+  .container-check label {
+    margin-right: 0px;
+  }
+
+  .container-check a {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #btn {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 0.3rem 0rem;
+  }
+}
