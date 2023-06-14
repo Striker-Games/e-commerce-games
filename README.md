@@ -8,9 +8,15 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 ## Layout Web - Tela Home
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
+![Captura de tela 2023-06-14 170536](https://github.com/Striker-Games/e-commerce-games/assets/88864793/6795964c-9b33-462a-80a7-c501720158ae)
+
+
+
 
 ## Layout Mobile - Tela Home
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+
+![Captura de tela 2023-06-14 170631](https://github.com/Striker-Games/e-commerce-games/assets/88864793/9de862d0-7cce-4edf-b11c-439959127b21)
 
 
 # Tecnologias utilizadas
@@ -30,7 +36,6 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 - H2
 
 # Como utilizar
-
 
 
 # Autores
