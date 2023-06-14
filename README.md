@@ -22,14 +22,15 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 - Netlify
 
 ## Back end
-- C Sharp .NET
-- Entity Framework Core
--  Google Cloud.
+- Java
+- Spring Boot
+
 
 ## Banco de Dados
-- PostgreSQL
-- BrModelo - Modelagem Conceitual e logica
-- SQL Power Architect - Modelagem Física.
+- H2
+
+# Como utilizar
+
 
 
 # Autores
