@@ -24,7 +24,7 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 
 # Como utilizar
 ## Instalações obrigatórias
-- VS Code ou outro ambiente de desenvolvimento para contrução do Front End
+- VS Code ou outro ambiente de desenvolvimento para construção do Front End
 - Intellij ou Eclipse para o ambiente de desenvolvimente em JAVA, além da intalação das dependencias dessa IDE.
 - JAVA (projeto foi feito na versão 20).
 
