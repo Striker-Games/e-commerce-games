@@ -18,6 +18,15 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 
 ![Captura de tela 2023-06-14 170631](https://github.com/Striker-Games/e-commerce-games/assets/88864793/9de862d0-7cce-4edf-b11c-439959127b21)
 
+# Como utilizar
+## Instalações obrigatórias
+- VS Code ou outro ambiente de desenvolvimento para contrução do Front End
+- Intellij ou Eclipse para o ambiente de desenvolvimente em JAVA, além da intalação das dependencias dessa IDE.
+- JAVA (projeto foi feito na versão 20).
+
+## Acesso
+
+
 
 # Tecnologias utilizadas
 ## Front end
@@ -35,7 +44,6 @@ O objetivo deste projeto é acadêmico, visando colocar em prática e desafiar a
 ## Banco de Dados
 - H2
 
-# Como utilizar
 
 
 # Autores
